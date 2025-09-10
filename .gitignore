@@ -1,0 +1,26 @@
+log/ 
+*.log 
+EOF 
+git status --ignored
+git add .gitignore 
+git commit -m "Add .gitignore to exclude logs" 
+git rm -r --cached log app.log
+git commit -m "Stop tracking log files" 
+git push 
+cat > .gitignore <<EOF
+log/ 
+*.log 
+EOF 
+git status --ignored
+git add .gitignore 
+git commit -m "Add .gitignore to exclude logs" 
+git rm -r --cached log app.log
+git commit -m "Stop tracking log files" 
+git push 
+
+
+cat > .gitignore <<EOF
+
+cat > .gitignore <<EOF
+log/
+*.log
