@@ -1,2 +1,1 @@
-# Git Practice
-Giới thiệu: Tôi là Nguyen Thao Nhi , MSSV 224897.
+Đây là README từ nhánh main.
